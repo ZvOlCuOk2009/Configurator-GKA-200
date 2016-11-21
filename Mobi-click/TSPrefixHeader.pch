@@ -1,0 +1,27 @@
+//
+//  TSPrefixHeader.pch
+//  Mobi-click
+//
+//  Created by Mac on 07.10.16.
+//  Copyright © 2016 Mac. All rights reserved.
+//
+
+#ifndef TSPrefixHeader_pch
+#define TSPrefixHeader_pch
+
+#define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue: b/255.0 alpha:1.0]
+#define BLUE_COLOR RGB(70, 190, 230)
+
+#define VALID_CHARACTER @"1234567890"
+#define LIMIT_CHARACTER 10
+
+#define IS_IPHONE_4 (fabs((double)[[UIScreen mainScreen]bounds].size.height - (double)480) < DBL_EPSILON)
+#define IS_IPHONE_5 (fabs((double)[[UIScreen mainScreen]bounds].size.height - (double)568) < DBL_EPSILON)
+#define IS_IPHONE_6 (fabs((double)[[UIScreen mainScreen]bounds].size.height - (double)667) < DBL_EPSILON)
+#define IS_IPHONE_6_PLUS (fabs((double)[[UIScreen mainScreen]bounds].size.height - (double)736) < DBL_EPSILON)
+
+#define IS_IPAD_2 (fabs((double)[[UIScreen mainScreen]bounds].size.height - (double)1024) < DBL_EPSILON)
+#define IS_IPAD_AIR (fabs((double)[[UIScreen mainScreen]bounds].size.height - (double)2048) < DBL_EPSILON)
+#define IS_IPAD_PRO (fabs((double)[[UIScreen mainScreen]bounds].size.height - (double)2732) < DBL_EPSILON)
+
+#endif /* TSPrefixHeader_pch */

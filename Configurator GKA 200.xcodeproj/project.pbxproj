@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD9411121DAC21D9005291E0 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9411111DAC21D9005291E0 /* ContactsUI.framework */; };
+		FDB205661DB3C68E00478A88 /* TSGPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB205651DB3C68E00478A88 /* TSGPSViewController.m */; };
+		FDB205691DB4302B00478A88 /* TSExtraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB205681DB4302B00478A88 /* TSExtraViewController.m */; };
+		FDE38C511DAAF7C400D408F2 /* TSPostingMessagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE38C501DAAF7C400D408F2 /* TSPostingMessagesManager.m */; };
+		FDE38C591DAAFB8300D408F2 /* NSString+TSString.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE38C581DAAFB8300D408F2 /* NSString+TSString.m */; };
+		FDE94CFE1DA7A7E1006C2207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94CFD1DA7A7E1006C2207 /* main.m */; };
+		FDE94D011DA7A7E1006C2207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D001DA7A7E1006C2207 /* AppDelegate.m */; };
+		FDE94D071DA7A7E1006C2207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE94D051DA7A7E1006C2207 /* Main.storyboard */; };
+		FDE94D091DA7A7E1006C2207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE94D081DA7A7E1006C2207 /* Assets.xcassets */; };
+		FDE94D0C1DA7A7E1006C2207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE94D0A1DA7A7E1006C2207 /* LaunchScreen.storyboard */; };
+		FDE94D171DA7A7E2006C2207 /* Mobi_clickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D161DA7A7E2006C2207 /* Mobi_clickTests.m */; };
+		FDE94D221DA7A7E2006C2207 /* Mobi_clickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D211DA7A7E2006C2207 /* Mobi_clickUITests.m */; };
+		FDE94D311DA7BF02006C2207 /* TSMeinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D301DA7BF02006C2207 /* TSMeinViewController.m */; };
+		FDE94D351DA7C76F006C2207 /* TSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D341DA7C76F006C2207 /* TSSettingsViewController.m */; };
+		FDE94D381DA7D2FA006C2207 /* TSSOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D371DA7D2FA006C2207 /* TSSOSViewController.m */; };
+		FDE94D3B1DA7EFDF006C2207 /* TSTelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D3A1DA7EFDF006C2207 /* TSTelViewController.m */; };
+		FDE94D3E1DA7F7D6006C2207 /* TSSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D3D1DA7F7D6006C2207 /* TSSensorViewController.m */; };
+		FDE94D411DA81D9F006C2207 /* TSLaunguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D401DA81D9F006C2207 /* TSLaunguageViewController.m */; };
+		FDE94D441DA82603006C2207 /* TSNameDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D431DA82603006C2207 /* TSNameDeviceViewController.m */; };
+		FDE94D471DA826F1006C2207 /* TSTimeDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D461DA826F1006C2207 /* TSTimeDateViewController.m */; };
+		FDE94D4A1DA82A92006C2207 /* TSStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D491DA82A92006C2207 /* TSStatusViewController.m */; };
+		FDE94D4D1DA82AAF006C2207 /* TSAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D4C1DA82AAF006C2207 /* TSAudioViewController.m */; };
+		FDE94D501DA82AFF006C2207 /* TSHoldAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE94D4F1DA82AFF006C2207 /* TSHoldAlarmViewController.m */; };
+		FDEF2B141DA929DC008D6AF6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEF2B131DA929DC008D6AF6 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDE94D131DA7A7E2006C2207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE94CF11DA7A7E0006C2207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE94CF81DA7A7E1006C2207;
+			remoteInfo = "Mobi-click";
+		};
+		FDE94D1E1DA7A7E2006C2207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE94CF11DA7A7E0006C2207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE94CF81DA7A7E1006C2207;
+			remoteInfo = "Mobi-click";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD94110F1DAC21AA005291E0 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		FD9411111DAC21D9005291E0 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		FDB205641DB3C68D00478A88 /* TSGPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGPSViewController.h; sourceTree = "<group>"; };
+		FDB205651DB3C68E00478A88 /* TSGPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSGPSViewController.m; sourceTree = "<group>"; };
+		FDB205671DB4302B00478A88 /* TSExtraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSExtraViewController.h; sourceTree = "<group>"; };
+		FDB205681DB4302B00478A88 /* TSExtraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSExtraViewController.m; sourceTree = "<group>"; };
+		FDE38C4F1DAAF7C400D408F2 /* TSPostingMessagesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPostingMessagesManager.h; sourceTree = "<group>"; };
+		FDE38C501DAAF7C400D408F2 /* TSPostingMessagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPostingMessagesManager.m; sourceTree = "<group>"; };
+		FDE38C571DAAFB8300D408F2 /* NSString+TSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TSString.h"; sourceTree = "<group>"; };
+		FDE38C581DAAFB8300D408F2 /* NSString+TSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TSString.m"; sourceTree = "<group>"; };
+		FDE94CF91DA7A7E1006C2207 /* Configurator GKA 200.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Configurator GKA 200.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE94CFD1DA7A7E1006C2207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDE94CFF1DA7A7E1006C2207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDE94D001DA7A7E1006C2207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDE94D061DA7A7E1006C2207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE94D081DA7A7E1006C2207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE94D0B1DA7A7E1006C2207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDE94D0D1DA7A7E1006C2207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE94D121DA7A7E2006C2207 /* Configurator GKA 200Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Configurator GKA 200Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE94D161DA7A7E2006C2207 /* Mobi_clickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobi_clickTests.m; sourceTree = "<group>"; };
+		FDE94D181DA7A7E2006C2207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE94D1D1DA7A7E2006C2207 /* Configurator GKA 200UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Configurator GKA 200UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE94D211DA7A7E2006C2207 /* Mobi_clickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobi_clickUITests.m; sourceTree = "<group>"; };
+		FDE94D231DA7A7E2006C2207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE94D2F1DA7BF02006C2207 /* TSMeinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMeinViewController.h; sourceTree = "<group>"; };
+		FDE94D301DA7BF02006C2207 /* TSMeinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMeinViewController.m; sourceTree = "<group>"; };
+		FDE94D321DA7C08E006C2207 /* TSPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPrefixHeader.pch; sourceTree = "<group>"; };
+		FDE94D331DA7C76F006C2207 /* TSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSettingsViewController.h; sourceTree = "<group>"; };
+		FDE94D341DA7C76F006C2207 /* TSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSettingsViewController.m; sourceTree = "<group>"; };
+		FDE94D361DA7D2FA006C2207 /* TSSOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSOSViewController.h; sourceTree = "<group>"; };
+		FDE94D371DA7D2FA006C2207 /* TSSOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSOSViewController.m; sourceTree = "<group>"; };
+		FDE94D391DA7EFDF006C2207 /* TSTelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTelViewController.h; sourceTree = "<group>"; };
+		FDE94D3A1DA7EFDF006C2207 /* TSTelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTelViewController.m; sourceTree = "<group>"; };
+		FDE94D3C1DA7F7D6006C2207 /* TSSensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSensorViewController.h; sourceTree = "<group>"; };
+		FDE94D3D1DA7F7D6006C2207 /* TSSensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSensorViewController.m; sourceTree = "<group>"; };
+		FDE94D3F1DA81D9F006C2207 /* TSLaunguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLaunguageViewController.h; sourceTree = "<group>"; };
+		FDE94D401DA81D9F006C2207 /* TSLaunguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLaunguageViewController.m; sourceTree = "<group>"; };
+		FDE94D421DA82603006C2207 /* TSNameDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNameDeviceViewController.h; sourceTree = "<group>"; };
+		FDE94D431DA82603006C2207 /* TSNameDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNameDeviceViewController.m; sourceTree = "<group>"; };
+		FDE94D451DA826F1006C2207 /* TSTimeDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTimeDateViewController.h; sourceTree = "<group>"; };
+		FDE94D461DA826F1006C2207 /* TSTimeDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTimeDateViewController.m; sourceTree = "<group>"; };
+		FDE94D481DA82A92006C2207 /* TSStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStatusViewController.h; sourceTree = "<group>"; };
+		FDE94D491DA82A92006C2207 /* TSStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSStatusViewController.m; sourceTree = "<group>"; };
+		FDE94D4B1DA82AAF006C2207 /* TSAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAudioViewController.h; sourceTree = "<group>"; };
+		FDE94D4C1DA82AAF006C2207 /* TSAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAudioViewController.m; sourceTree = "<group>"; };
+		FDE94D4E1DA82AFE006C2207 /* TSHoldAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHoldAlarmViewController.h; sourceTree = "<group>"; };
+		FDE94D4F1DA82AFF006C2207 /* TSHoldAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSHoldAlarmViewController.m; sourceTree = "<group>"; };
+		FDEF2B131DA929DC008D6AF6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE94CF61DA7A7E1006C2207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9411121DAC21D9005291E0 /* ContactsUI.framework in Frameworks */,
+				FDEF2B141DA929DC008D6AF6 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE94D0F1DA7A7E2006C2207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE94D1A1DA7A7E2006C2207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDE38C521DAAF7EB00D408F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDE94D2F1DA7BF02006C2207 /* TSMeinViewController.h */,
+				FDE94D301DA7BF02006C2207 /* TSMeinViewController.m */,
+				FDE94D331DA7C76F006C2207 /* TSSettingsViewController.h */,
+				FDE94D341DA7C76F006C2207 /* TSSettingsViewController.m */,
+				FDE94D361DA7D2FA006C2207 /* TSSOSViewController.h */,
+				FDE94D371DA7D2FA006C2207 /* TSSOSViewController.m */,
+				FDE94D391DA7EFDF006C2207 /* TSTelViewController.h */,
+				FDE94D3A1DA7EFDF006C2207 /* TSTelViewController.m */,
+				FDE94D3C1DA7F7D6006C2207 /* TSSensorViewController.h */,
+				FDE94D3D1DA7F7D6006C2207 /* TSSensorViewController.m */,
+				FDE94D3F1DA81D9F006C2207 /* TSLaunguageViewController.h */,
+				FDE94D401DA81D9F006C2207 /* TSLaunguageViewController.m */,
+				FDE94D421DA82603006C2207 /* TSNameDeviceViewController.h */,
+				FDE94D431DA82603006C2207 /* TSNameDeviceViewController.m */,
+				FDE94D451DA826F1006C2207 /* TSTimeDateViewController.h */,
+				FDE94D461DA826F1006C2207 /* TSTimeDateViewController.m */,
+				FDE94D481DA82A92006C2207 /* TSStatusViewController.h */,
+				FDE94D491DA82A92006C2207 /* TSStatusViewController.m */,
+				FDB205641DB3C68D00478A88 /* TSGPSViewController.h */,
+				FDB205651DB3C68E00478A88 /* TSGPSViewController.m */,
+				FDE94D4B1DA82AAF006C2207 /* TSAudioViewController.h */,
+				FDE94D4C1DA82AAF006C2207 /* TSAudioViewController.m */,
+				FDE94D4E1DA82AFE006C2207 /* TSHoldAlarmViewController.h */,
+				FDE94D4F1DA82AFF006C2207 /* TSHoldAlarmViewController.m */,
+				FDB205671DB4302B00478A88 /* TSExtraViewController.h */,
+				FDB205681DB4302B00478A88 /* TSExtraViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FDE38C531DAAF7FD00D408F2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FDE94CFF1DA7A7E1006C2207 /* AppDelegate.h */,
+				FDE94D001DA7A7E1006C2207 /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		FDE38C551DAAF81E00D408F2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FDE38C4F1DAAF7C400D408F2 /* TSPostingMessagesManager.h */,
+				FDE38C501DAAF7C400D408F2 /* TSPostingMessagesManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		FDE38C561DAAFB4400D408F2 /* Catigory */ = {
+			isa = PBXGroup;
+			children = (
+				FDE38C571DAAFB8300D408F2 /* NSString+TSString.h */,
+				FDE38C581DAAFB8300D408F2 /* NSString+TSString.m */,
+			);
+			name = Catigory;
+			sourceTree = "<group>";
+		};
+		FDE94CF01DA7A7E0006C2207 = {
+			isa = PBXGroup;
+			children = (
+				FDE94CFB1DA7A7E1006C2207 /* Mobi-click */,
+				FDE94D151DA7A7E2006C2207 /* Mobi-clickTests */,
+				FDE94D201DA7A7E2006C2207 /* Mobi-clickUITests */,
+				FDE94CFA1DA7A7E1006C2207 /* Products */,
+				FDEF2B121DA929DB008D6AF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE94CFA1DA7A7E1006C2207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE94CF91DA7A7E1006C2207 /* Configurator GKA 200.app */,
+				FDE94D121DA7A7E2006C2207 /* Configurator GKA 200Tests.xctest */,
+				FDE94D1D1DA7A7E2006C2207 /* Configurator GKA 200UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE94CFB1DA7A7E1006C2207 /* Mobi-click */ = {
+			isa = PBXGroup;
+			children = (
+				FDE38C531DAAF7FD00D408F2 /* App */,
+				FDE38C551DAAF81E00D408F2 /* Manager */,
+				FDE38C561DAAFB4400D408F2 /* Catigory */,
+				FDE38C521DAAF7EB00D408F2 /* Controllers */,
+				FDE94D051DA7A7E1006C2207 /* Main.storyboard */,
+				FDE94D081DA7A7E1006C2207 /* Assets.xcassets */,
+				FDE94D0A1DA7A7E1006C2207 /* LaunchScreen.storyboard */,
+				FDE94D0D1DA7A7E1006C2207 /* Info.plist */,
+				FDE94CFC1DA7A7E1006C2207 /* Supporting Files */,
+				FDE94D321DA7C08E006C2207 /* TSPrefixHeader.pch */,
+			);
+			path = "Mobi-click";
+			sourceTree = "<group>";
+		};
+		FDE94CFC1DA7A7E1006C2207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE94CFD1DA7A7E1006C2207 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDE94D151DA7A7E2006C2207 /* Mobi-clickTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE94D161DA7A7E2006C2207 /* Mobi_clickTests.m */,
+				FDE94D181DA7A7E2006C2207 /* Info.plist */,
+			);
+			path = "Mobi-clickTests";
+			sourceTree = "<group>";
+		};
+		FDE94D201DA7A7E2006C2207 /* Mobi-clickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE94D211DA7A7E2006C2207 /* Mobi_clickUITests.m */,
+				FDE94D231DA7A7E2006C2207 /* Info.plist */,
+			);
+			path = "Mobi-clickUITests";
+			sourceTree = "<group>";
+		};
+		FDEF2B121DA929DB008D6AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD9411111DAC21D9005291E0 /* ContactsUI.framework */,
+				FD94110F1DAC21AA005291E0 /* Contacts.framework */,
+				FDEF2B131DA929DC008D6AF6 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE94CF81DA7A7E1006C2207 /* Configurator GKA 200 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE94D261DA7A7E2006C2207 /* Build configuration list for PBXNativeTarget "Configurator GKA 200" */;
+			buildPhases = (
+				FDE94CF51DA7A7E1006C2207 /* Sources */,
+				FDE94CF61DA7A7E1006C2207 /* Frameworks */,
+				FDE94CF71DA7A7E1006C2207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Configurator GKA 200";
+			productName = "Mobi-click";
+			productReference = FDE94CF91DA7A7E1006C2207 /* Configurator GKA 200.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDE94D111DA7A7E2006C2207 /* Configurator GKA 200Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE94D291DA7A7E2006C2207 /* Build configuration list for PBXNativeTarget "Configurator GKA 200Tests" */;
+			buildPhases = (
+				FDE94D0E1DA7A7E2006C2207 /* Sources */,
+				FDE94D0F1DA7A7E2006C2207 /* Frameworks */,
+				FDE94D101DA7A7E2006C2207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE94D141DA7A7E2006C2207 /* PBXTargetDependency */,
+			);
+			name = "Configurator GKA 200Tests";
+			productName = "Mobi-clickTests";
+			productReference = FDE94D121DA7A7E2006C2207 /* Configurator GKA 200Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDE94D1C1DA7A7E2006C2207 /* Configurator GKA 200UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE94D2C1DA7A7E2006C2207 /* Build configuration list for PBXNativeTarget "Configurator GKA 200UITests" */;
+			buildPhases = (
+				FDE94D191DA7A7E2006C2207 /* Sources */,
+				FDE94D1A1DA7A7E2006C2207 /* Frameworks */,
+				FDE94D1B1DA7A7E2006C2207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE94D1F1DA7A7E2006C2207 /* PBXTargetDependency */,
+			);
+			name = "Configurator GKA 200UITests";
+			productName = "Mobi-clickUITests";
+			productReference = FDE94D1D1DA7A7E2006C2207 /* Configurator GKA 200UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE94CF11DA7A7E0006C2207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					FDE94CF81DA7A7E1006C2207 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2ZQMG97HLH;
+						ProvisioningStyle = Automatic;
+					};
+					FDE94D111DA7A7E2006C2207 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDE94CF81DA7A7E1006C2207;
+					};
+					FDE94D1C1DA7A7E2006C2207 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDE94CF81DA7A7E1006C2207;
+					};
+				};
+			};
+			buildConfigurationList = FDE94CF41DA7A7E0006C2207 /* Build configuration list for PBXProject "Configurator GKA 200" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE94CF01DA7A7E0006C2207;
+			productRefGroup = FDE94CFA1DA7A7E1006C2207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE94CF81DA7A7E1006C2207 /* Configurator GKA 200 */,
+				FDE94D111DA7A7E2006C2207 /* Configurator GKA 200Tests */,
+				FDE94D1C1DA7A7E2006C2207 /* Configurator GKA 200UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE94CF71DA7A7E1006C2207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE94D0C1DA7A7E1006C2207 /* LaunchScreen.storyboard in Resources */,
+				FDE94D091DA7A7E1006C2207 /* Assets.xcassets in Resources */,
+				FDE94D071DA7A7E1006C2207 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE94D101DA7A7E2006C2207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE94D1B1DA7A7E2006C2207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE94CF51DA7A7E1006C2207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE94D351DA7C76F006C2207 /* TSSettingsViewController.m in Sources */,
+				FDE94D311DA7BF02006C2207 /* TSMeinViewController.m in Sources */,
+				FDE94D4D1DA82AAF006C2207 /* TSAudioViewController.m in Sources */,
+				FDE94D471DA826F1006C2207 /* TSTimeDateViewController.m in Sources */,
+				FDE94D381DA7D2FA006C2207 /* TSSOSViewController.m in Sources */,
+				FDE94D3E1DA7F7D6006C2207 /* TSSensorViewController.m in Sources */,
+				FDE94D011DA7A7E1006C2207 /* AppDelegate.m in Sources */,
+				FDE94D411DA81D9F006C2207 /* TSLaunguageViewController.m in Sources */,
+				FDE94D441DA82603006C2207 /* TSNameDeviceViewController.m in Sources */,
+				FDE94D501DA82AFF006C2207 /* TSHoldAlarmViewController.m in Sources */,
+				FDE94D4A1DA82A92006C2207 /* TSStatusViewController.m in Sources */,
+				FDE38C511DAAF7C400D408F2 /* TSPostingMessagesManager.m in Sources */,
+				FDE94CFE1DA7A7E1006C2207 /* main.m in Sources */,
+				FDE94D3B1DA7EFDF006C2207 /* TSTelViewController.m in Sources */,
+				FDB205661DB3C68E00478A88 /* TSGPSViewController.m in Sources */,
+				FDB205691DB4302B00478A88 /* TSExtraViewController.m in Sources */,
+				FDE38C591DAAFB8300D408F2 /* NSString+TSString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE94D0E1DA7A7E2006C2207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE94D171DA7A7E2006C2207 /* Mobi_clickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE94D191DA7A7E2006C2207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE94D221DA7A7E2006C2207 /* Mobi_clickUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDE94D141DA7A7E2006C2207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE94CF81DA7A7E1006C2207 /* Configurator GKA 200 */;
+			targetProxy = FDE94D131DA7A7E2006C2207 /* PBXContainerItemProxy */;
+		};
+		FDE94D1F1DA7A7E2006C2207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE94CF81DA7A7E1006C2207 /* Configurator GKA 200 */;
+			targetProxy = FDE94D1E1DA7A7E2006C2207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDE94D051DA7A7E1006C2207 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE94D061DA7A7E1006C2207 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE94D0A1DA7A7E1006C2207 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE94D0B1DA7A7E1006C2207 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE94D241DA7A7E2006C2207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gerhard Putter (BKUV67K47Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Developer ID Application: Gerhard Putter (2ZQMG97HLH)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tsvigun-Sasha.Mobi.click";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDE94D251DA7A7E2006C2207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gerhard Putter (BKUV67K47Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Developer ID Installer: Gerhard Putter (2ZQMG97HLH)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tsvigun-Sasha.Mobi.click";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE94D271DA7A7E2006C2207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2ZQMG97HLH;
+				INFOPLIST_FILE = "Mobi-click/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tsvigun-Sasha.Mobi.click";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDE94D281DA7A7E2006C2207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2ZQMG97HLH;
+				INFOPLIST_FILE = "Mobi-click/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tsvigun-Sasha.Mobi.click";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDE94D2A1DA7A7E2006C2207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mobi-clickTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tsvigun-Sasha.Mobi-clickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Configurator GKA 200.app/Configurator GKA 200";
+			};
+			name = Debug;
+		};
+		FDE94D2B1DA7A7E2006C2207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mobi-clickTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tsvigun-Sasha.Mobi-clickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Configurator GKA 200.app/Configurator GKA 200";
+			};
+			name = Release;
+		};
+		FDE94D2D1DA7A7E2006C2207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mobi-clickUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tsvigun-Sasha.Mobi-clickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mobi-click";
+			};
+			name = Debug;
+		};
+		FDE94D2E1DA7A7E2006C2207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mobi-clickUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tsvigun-Sasha.Mobi-clickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mobi-click";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE94CF41DA7A7E0006C2207 /* Build configuration list for PBXProject "Configurator GKA 200" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE94D241DA7A7E2006C2207 /* Debug */,
+				FDE94D251DA7A7E2006C2207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE94D261DA7A7E2006C2207 /* Build configuration list for PBXNativeTarget "Configurator GKA 200" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE94D271DA7A7E2006C2207 /* Debug */,
+				FDE94D281DA7A7E2006C2207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE94D291DA7A7E2006C2207 /* Build configuration list for PBXNativeTarget "Configurator GKA 200Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE94D2A1DA7A7E2006C2207 /* Debug */,
+				FDE94D2B1DA7A7E2006C2207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE94D2C1DA7A7E2006C2207 /* Build configuration list for PBXNativeTarget "Configurator GKA 200UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE94D2D1DA7A7E2006C2207 /* Debug */,
+				FDE94D2E1DA7A7E2006C2207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE94CF11DA7A7E0006C2207 /* Project object */;
+}
